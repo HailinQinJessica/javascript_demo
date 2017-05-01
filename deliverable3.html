@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Jessica's Deliverable3</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container" style="background-color: #ddd">
+      <h1 class="text-center">Jessica's Deliverable3</h1>
+    </div>
+    <div class="container text-center" style="padding: 20px; background-color: #eee">
+      <div class="alert alert-success" role="alert" id="success"><strong>Success!  </strong>You've successfully submit.</div>
+      <div class="alert alert-danger" role="alert" id="error-email"><strong>Wrong!  </strong>Invalid email.</div>
+      <div class="alert alert-danger" role="alert" id="error-pw" ><strong>Wrong!  </strong>Invalid password.Please enter a password with at least 10 characters</div>
+
+      <form id="form">
+        <div class="form-group">
+          <label>Email address</label></br>
+          <input type="email" id="email" name="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label>Password</label></br>
+          <input type="password" id="password" name="password" placeholder="Password">
+        </div>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main3.js"></script>
+  </body>
+</html>
